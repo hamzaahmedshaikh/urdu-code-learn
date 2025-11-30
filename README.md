@@ -1,4 +1,5 @@
-# Javascript Learning Array aur Objects Functions Banana DOM Manipulation Array Filter Method Search Functionality
+# Urdu Code Learn  
+### Javascript Learning — Arrays, Objects, Functions, DOM Manipulation, Filter Method, Search Functionality
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/hamzaahmedshaikh/urdu-code-learn)
 ![GitHub stars](https://img.shields.io/github/stars/hamzaahmedshaikh/urdu-code-learn?style=social)
@@ -20,19 +21,21 @@ Built and maintained by **Hamza Ahmed Shaikh**.
 
 ## 🖼️ Project Preview
 
-![Project Preview]([https://via.placeholder.com/1200x600.png?text=Project+Screenshot](https://i.ibb.co/nsMcvdGR/Capture.png))
+![Project Preview](https://i.ibb.co/nsMcvdGR/Capture.png)
 
 ---
 
 ## ✨ Features
 
-- 📖 **Learn programming in Urdu** — super beginner friendly  
+- 📖 **Learn programming in Urdu** — perfect for total beginners  
 - ⚡ Fast-loading and optimized with **Vite**  
-- 🎨 Beautiful UI built using **Tailwind CSS + shadcn/ui**  
-- 📱 Fully responsive on all devices  
-- 🧠 Simple code examples explained in Urdu  
-- 🔍 Clean structure for easy learning and edits  
-- 🚀 Lightweight and fast React app  
+- 🎨 Clean UI using **Tailwind CSS + shadcn/ui**  
+- 📱 Fully mobile-responsive  
+- 🧠 Easy examples explained in Urdu  
+- 🔍 Search & Filter functionality  
+- 📂 Organized folder structure  
+- 🚀 Lightweight React app  
+- 🤝 Open-source and beginner friendly  
 
 ---
 
@@ -47,17 +50,17 @@ Built and maintained by **Hamza Ahmed Shaikh**.
 
 ---
 
-## 📥 Installation / Running Locally
+## 📥 Installation / Run Locally
 
 ```sh
 # 1. Clone the repository
 git clone https://github.com/hamzaahmedshaikh/urdu-code-learn
 
-# 2. Enter folder
+# 2. Go into the project folder
 cd urdu-code-learn
 
 # 3. Install dependencies
 npm install
 
-# 4. Start dev server
+# 4. Start the development server
 npm run dev
