@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# 🇵🇰 Urdu Code Learn — Programming in Simple Urdu
 
-## Project info
+![GitHub repo size](https://img.shields.io/github/repo-size/hamzaahmedshaikh/urdu-code-learn)
+![GitHub stars](https://img.shields.io/github/stars/hamzaahmedshaikh/urdu-code-learn?style=social)
+![GitHub license](https://img.shields.io/github/license/hamzaahmedshaikh/urdu-code-learn)
+![GitHub deployments](https://img.shields.io/github/deployments/hamzaahmedshaikh/urdu-code-learn/github-pages)
 
-**URL**: https://lovable.dev/projects/b77717db-0866-413c-95fc-a6fbde921185
+A beginner-friendly platform where anyone can learn programming concepts in simple and easy Urdu.  
+Built and maintained by **Hamza Ahmed Shaikh**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🔗 Live Demo
 
-**Use Lovable**
+🌐 **Website:** https://hamzaahmedshaikh.github.io/urdu-code-learn  
+💼 **Portfolio:** https://hamzario.pk  
+📦 **Repository:** https://github.com/hamzaahmedshaikh/urdu-code-learn  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b77717db-0866-413c-95fc-a6fbde921185) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🖼️ Project Preview
 
-**Use your preferred IDE**
+> Replace this with your screenshot  
+![Project Preview](https://via.placeholder.com/1200x600.png?text=Project+Screenshot)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+- 📖 **Learn programming in Urdu** — super beginner friendly  
+- ⚡ Fast-loading and optimized with **Vite**  
+- 🎨 Beautiful UI built using **Tailwind CSS + shadcn/ui**  
+- 📱 Fully responsive on all devices  
+- 🧠 Simple code examples explained in Urdu  
+- 🔍 Clean structure for easy learning and edits  
+- 🚀 Lightweight and fast React app  
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React**
+- **Vite**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **GitHub Pages (Deployment)**
+
+---
+
+## 📥 Installation / Running Locally
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1. Clone the repository
+git clone https://github.com/hamzaahmedshaikh/urdu-code-learn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Enter folder
+cd urdu-code-learn
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start dev server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b77717db-0866-413c-95fc-a6fbde921185) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
