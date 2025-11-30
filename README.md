@@ -20,8 +20,7 @@ Built and maintained by **Hamza Ahmed Shaikh**.
 
 ## 🖼️ Project Preview
 
-> Replace this with your screenshot  
-![Project Preview](https://via.placeholder.com/1200x600.png?text=Project+Screenshot)
+![Project Preview]([https://via.placeholder.com/1200x600.png?text=Project+Screenshot](https://i.ibb.co/nsMcvdGR/Capture.png))
 
 ---
 
