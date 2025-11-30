@@ -2,6 +2,8 @@ import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
 import ConceptSection from "@/components/ConceptSection";
 import CodeTutorial from "@/components/CodeTutorial";
+import StepByStep from "@/components/StepByStep";
+import Quiz from "@/components/Quiz";
 
 const Index = () => {
   return (
@@ -11,8 +13,14 @@ const Index = () => {
       <div id="concepts">
         <ConceptSection />
       </div>
+      <div id="step-by-step">
+        <StepByStep />
+      </div>
       <div id="tutorial">
         <CodeTutorial />
+      </div>
+      <div id="quiz">
+        <Quiz />
       </div>
       
       <footer className="py-8 px-4 bg-primary text-white text-center">

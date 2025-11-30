@@ -50,6 +50,46 @@ All colors MUST be HSL.
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .dark {
+    --background: 160 25% 8%;
+    --foreground: 150 20% 90%;
+
+    --card: 160 20% 12%;
+    --card-foreground: 150 20% 90%;
+
+    --popover: 160 20% 12%;
+    --popover-foreground: 150 20% 90%;
+
+    --primary: 155 70% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 45 90% 55%;
+    --secondary-foreground: 160 25% 10%;
+
+    --muted: 160 20% 18%;
+    --muted-foreground: 150 15% 60%;
+
+    --accent: 25 85% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 15% 25%;
+    --input: 160 15% 25%;
+    --ring: 155 70% 45%;
+
+    --code-bg: 160 30% 6%;
+    --code-text: 150 20% 85%;
+    --code-keyword: 280 65% 75%;
+    --code-string: 130 50% 65%;
+    --code-number: 45 90% 65%;
+    --code-comment: 150 15% 55%;
+
+    --hero-gradient: linear-gradient(135deg, hsl(155 70% 30%), hsl(155 70% 40%));
+    --card-gradient: linear-gradient(135deg, hsl(160 20% 12%), hsl(160 20% 15%));
+  }
 }
 
 @layer base {
@@ -60,20 +100,40 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 18px;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
   code {
-    @apply font-mono text-sm;
+    @apply font-mono;
+    font-size: 1rem;
   }
 }
 
 @layer utilities {
   .code-block {
     @apply bg-[hsl(var(--code-bg))] text-[hsl(var(--code-text))] rounded-lg p-6 overflow-x-auto;
+    font-size: 1.125rem;
+    line-height: 1.8;
   }
 
   .gradient-text {
