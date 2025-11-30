@@ -1,4 +1,5 @@
-import { Code2, BookOpen, Lightbulb } from "lucide-react";
+import { Code2, BookOpen, Lightbulb, GraduationCap, ListChecks } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {
   const scrollToSection = (id: string) => {
@@ -16,21 +17,38 @@ const Navigation = () => {
           <span className="font-bold text-xl text-foreground">JS Tutorial</span>
         </div>
         
-        <div className="hidden md:flex items-center gap-6">
-          <button 
-            onClick={() => scrollToSection('concepts')}
-            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-          >
-            <Lightbulb className="w-4 h-4" />
-            <span>Concepts</span>
-          </button>
-          <button 
-            onClick={() => scrollToSection('tutorial')}
-            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-          >
-            <BookOpen className="w-4 h-4" />
-            <span>Tutorial</span>
-          </button>
+        <div className="flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-6">
+            <button 
+              onClick={() => scrollToSection('concepts')}
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Lightbulb className="w-4 h-4" />
+              <span>Concepts</span>
+            </button>
+            <button 
+              onClick={() => scrollToSection('step-by-step')}
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span>Step by Step</span>
+            </button>
+            <button 
+              onClick={() => scrollToSection('tutorial')}
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Full Tutorial</span>
+            </button>
+            <button 
+              onClick={() => scrollToSection('quiz')}
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+            >
+              <ListChecks className="w-4 h-4" />
+              <span>Quiz</span>
+            </button>
+          </div>
+          <ThemeToggle />
         </div>
       </div>
     </nav>
