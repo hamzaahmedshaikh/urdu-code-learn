@@ -1,4 +1,4 @@
-# 🇵🇰 Urdu Code Learn — Programming in Simple Urdu
+# Javascript Learning Array aur Objects Functions Banana DOM Manipulation Array Filter Method Search Functionality
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/hamzaahmedshaikh/urdu-code-learn)
 ![GitHub stars](https://img.shields.io/github/stars/hamzaahmedshaikh/urdu-code-learn?style=social)
